@@ -10,8 +10,11 @@ license = "MIT"
 authors = ["Sean McArthur <sean.monstar@gmail.com>",
            "Jonathan Reem <jonathan.reem@gmail.com>"]
 
+[dependencies.cookie]
+git = "https://github.com/servo/cookie-rs"
+branch = "lenientparse_backport"
+
 [dependencies]
-cookie = "*"
 log = "*"
 mime = "*"
 mucell = "*"
